@@ -21,3 +21,4 @@ Structured Verilog practice repository organized by concept and circuit type.
 - 2025-12-31: Added RTL combinational circuit/rtl/adder_sunstractor_signedNo.v
 - 2026-01-03: Added RTL basic/rtl/arithmatic_operators.v
 - 2026-01-05: Added RTL Sequential Circuit/rtl/async_up_counter.v
+- 2026-01-08: Added RTL Sequential Circuit/rtl/BCD_counter.v
