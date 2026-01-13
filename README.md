@@ -23,3 +23,4 @@ Structured Verilog practice repository organized by concept and circuit type.
 - 2026-01-05: Added RTL Sequential Circuit/rtl/async_up_counter.v
 - 2026-01-08: Added RTL Sequential Circuit/rtl/BCD_counter.v
 - 2026-01-10: Added RTL basic/rtl/blocking_vs_nonblocking_assignment.v
+- 2026-01-13: Added RTL basic/rtl/compare_storage_elements.v
