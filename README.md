@@ -26,3 +26,4 @@ Structured Verilog practice repository organized by concept and circuit type.
 - 2026-01-13: Added RTL basic/rtl/compare_storage_elements.v
 - 2026-01-15: Added RTL Sequential Circuit/rtl/D_latch.v
 - 2026-01-18: Added RTL combinational circuit/rtl/decoder_2x4.v
+- 2026-01-20: Added RTL combinational circuit/rtl/decoder_2x4_en.v
