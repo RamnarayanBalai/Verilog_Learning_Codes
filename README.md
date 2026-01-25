@@ -28,3 +28,4 @@ Structured Verilog practice repository organized by concept and circuit type.
 - 2026-01-18: Added RTL combinational circuit/rtl/decoder_2x4.v
 - 2026-01-20: Added RTL combinational circuit/rtl/decoder_2x4_en.v
 - 2026-01-23: Added RTL combinational circuit/rtl/decoder_generic.v
+- 2026-01-25: Added RTL Sequential Circuit/rtl/DFF.v
