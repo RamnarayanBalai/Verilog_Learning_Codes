@@ -33,3 +33,4 @@ Structured Verilog practice repository organized by concept and circuit type.
 - 2026-01-30: Added RTL Sequential Circuit/rtl/DFF_neg.v
 - 2026-02-02: Added RTL Sequential Circuit/rtl/DFF_reset.v
 - 2026-02-04: Added RTL combinational circuit/rtl/encoder_4x2.v
+- 2026-02-07: Added RTL combinational circuit/rtl/full_adder.v
