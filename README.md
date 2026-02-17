@@ -37,3 +37,4 @@ Structured Verilog practice repository organized by concept and circuit type.
 - 2026-02-09: Added RTL combinational circuit/rtl/generic_priority_encoder.v
 - 2026-02-12: Added RTL combinational circuit/rtl/half_adder.v
 - 2026-02-14: Added RTL combinational circuit/rtl/hexto7segment.v
+- 2026-02-17: Added RTL Sequential Circuit/rtl/mod_counter.v
