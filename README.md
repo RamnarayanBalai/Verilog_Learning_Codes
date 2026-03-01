@@ -42,3 +42,4 @@ Structured Verilog practice repository organized by concept and circuit type.
 - 2026-02-22: Added RTL Sequential Circuit/rtl/mod_counter_param.v
 - 2026-02-24: Added RTL Sequential Circuit/rtl/multi_decade_counter.v
 - 2026-02-27: Added RTL combinational circuit/rtl/multiple_adder.v
+- 2026-03-01: Added RTL combinational circuit/rtl/mux_2x1_beh.v
