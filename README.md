@@ -44,3 +44,4 @@ Structured Verilog practice repository organized by concept and circuit type.
 - 2026-02-27: Added RTL combinational circuit/rtl/multiple_adder.v
 - 2026-03-01: Added RTL combinational circuit/rtl/mux_2x1_beh.v
 - 2026-03-04: Added RTL combinational circuit/rtl/mux_2x1_dataflow.v
+- 2026-03-06: Added RTL combinational circuit/rtl/mux_2x1_gate.v
