@@ -48,3 +48,4 @@ Structured Verilog practice repository organized by concept and circuit type.
 - 2026-03-09: Added RTL combinational circuit/rtl/mux_2x1_nbit.v
 - 2026-03-11: Added RTL combinational circuit/rtl/mux_4x1.v
 - 2026-03-14: Added RTL combinational circuit/rtl/mux_4x1_nbit.v
+- 2026-03-16: Added RTL combinational circuit/rtl/mux_generic_1bit.v
