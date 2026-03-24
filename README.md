@@ -51,3 +51,4 @@ Structured Verilog practice repository organized by concept and circuit type.
 - 2026-03-16: Added RTL combinational circuit/rtl/mux_generic_1bit.v
 - 2026-03-19: Added RTL combinational circuit/rtl/priority_encoder.v
 - 2026-03-21: Added RTL Sequential Circuit/rtl/pwm_basic.v
+- 2026-03-24: Added RTL Sequential Circuit/rtl/pwm_improved.v
