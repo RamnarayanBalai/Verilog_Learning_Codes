@@ -55,3 +55,4 @@ Structured Verilog practice repository organized by concept and circuit type.
 - 2026-03-26: Added RTL combinational circuit/rtl/rca_4bit.v
 - 2026-03-26: Added TB combinational circuit/tb/adder_substractor_tb.v
 - 2026-03-29: Added TB Sequential Circuit/tb/async_up_counter_tb.v
+- 2026-03-31: Added TB basic/tb/compare_storage_elements_tb.v
