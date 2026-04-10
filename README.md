@@ -59,3 +59,4 @@ Structured Verilog practice repository organized by concept and circuit type.
 - 2026-04-03: Added TB Sequential Circuit/tb/pwm_basic_tb.v
 - 2026-04-05: Added TB Sequential Circuit/tb/tb_mod_counter.v
 - 2026-04-08: Added TB Sequential Circuit/tb/tb_mod_counter_input.v
+- 2026-04-10: Added TB Sequential Circuit/tb/tb_sync_counter.v
