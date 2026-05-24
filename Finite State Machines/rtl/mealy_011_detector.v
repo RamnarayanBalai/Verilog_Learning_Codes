@@ -1,3 +1,4 @@
+//state diagram to eauation implementation of mealy machine for 011 detector
 module mealy_011_detector(
     input clk,
     input reset_n,
