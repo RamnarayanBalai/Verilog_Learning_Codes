@@ -23,5 +23,6 @@ initial begin
     reset_n = 1; // deassert reset
     #100; // run the simulation for 100 time units
     $finish; // end the simulation
-    
+end
+
 endmodule
