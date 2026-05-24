@@ -1,0 +1,31 @@
+# IDE and Editor
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# GitHub
+.github/
+
+# Simulation and Build Outputs
+*.vcd
+*.vvp
+*.o
+*.exe
+*.out
+build/
+sim/
+output/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Compiled Objects
+*.obj
+*.a
+*.so
+
+# Logs
+*.log
