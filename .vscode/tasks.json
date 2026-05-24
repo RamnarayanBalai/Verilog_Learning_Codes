@@ -1,0 +1,81 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Verilog: Build & Simulate Testbench",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-File",
+                "${workspaceFolder}\\.github\\hooks\\verilog-build-sim.ps1",
+                "-TbFile",
+                "${file}",
+                "-WorkDir",
+                "${workspaceFolder}"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            },
+            "problemMatcher": [],
+            "runOptions": {
+                "runOn": "folderOpen": false
+            }
+        },
+        {
+            "label": "Verilog: Build Only (Compile)",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-Command",
+                "& {",
+                "Write-Host 'Compiling testbench...' -ForegroundColor Cyan;",
+                "$TbFile = '${file}';",
+                "$WorkDir = '${workspaceFolder}';",
+                "cd $WorkDir;",
+                "& '.\\.github\\hooks\\verilog-build-sim.ps1' -TbFile $TbFile -WorkDir $WorkDir | Select-String -Pattern 'Compiled successfully' -NotMatch | Select-String 'Simulation' -NotMatch;",
+                "}"
+            ],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Verilog: Run Testbench List",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-Command",
+                "Get-ChildItem -Path '${workspaceFolder}' -Recurse -Filter 'tb*.v' | Select-Object -ExpandProperty FullName | ForEach-Object { Write-Host $_ }"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        }
+    ]
+}

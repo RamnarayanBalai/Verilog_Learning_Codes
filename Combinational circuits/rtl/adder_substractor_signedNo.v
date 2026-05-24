@@ -23,9 +23,9 @@
 module adder_substractor_signedNo
     #(parameter n=4)
     (
-    input [n-1:0]x, [n-1:0]y,
+    input [n-1:0] x, y,
     input add_n,
-    output [n-1:0]s,
+    output [n-1:0] s,
     output cout, overflow
     );
     wire [n-1:0] xrored_y;
