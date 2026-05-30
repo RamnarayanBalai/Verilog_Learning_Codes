@@ -8,10 +8,18 @@ module button (
     output _edge
 );
 
+// adding synchronizer
+synchronizer #(.STAGES(2)) synchronizer_inst (
+    .clk(clk),
+    .reset_n(rst_n),
+    .D(noise_in),
+    .Q(noise_sync)
+);
+
 debouncer_delayed debouncer_inst (
     .clk(clk),
     .rst_n(rst_n),
-    .noise_in(noise_in),
+    .noise_in(noise_sync),
     .debounced_out(debounced_out)
 );
 
